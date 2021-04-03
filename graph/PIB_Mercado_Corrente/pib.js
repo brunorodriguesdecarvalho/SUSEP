@@ -21,7 +21,7 @@ function lerJSON() {
       }
     }
   };
-  xmlhttp.open("GET", "\\webapp\\old\\graph\\PIB_Mercado_Corrente\\Row1PIB_bruno.json", true);
+  xmlhttp.open("GET", ".\\graph\\PIB_Mercado_Corrente\\Row1PIB_bruno.json", true);
   xmlhttp.send();
 }
 
@@ -67,7 +67,7 @@ function drawChart() {
     explorer: {
        actions: ['dragToZoom', 'rightClickToReset'],
     },
-    pointSize: 3,
+    pointSize: 3
   };
 
   chart.draw(data, options);
