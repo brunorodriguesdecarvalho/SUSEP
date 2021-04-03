@@ -48,5 +48,5 @@ app.use("/icons", express.static('./icons'));
 app.use("/style", express.static('./style')); 
 app.use("/scripts", express.static('./scripts'));
 
-app.listen(porta, () => console.log(`App ok na porta ${porta}!`))
+app.listen(porta, () => console.log(`App ok sim na porta ${porta}!`))
 console.log("Finalizando leitura de server.js");
