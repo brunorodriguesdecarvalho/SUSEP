@@ -1,0 +1,29 @@
+.dashboard_div {
+    margin: 30px;
+  }
+  
+  .hidden
+  {
+    width: 0px;
+    height: 0px;
+    margin: 0px;
+    visibility: hidden;
+  }
+  
+  #standalone_table_div
+  {
+    margin-top: 10px;  
+  }
+  
+  .columnTitle 
+  {
+    background-color: #FFFFFF; 
+    color: #3366CC; 
+  }
+  
+  #buttons
+  {
+    float: right;
+    display: flex;
+    margin-bottom: 5px;
+  }

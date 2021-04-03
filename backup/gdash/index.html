@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://unpkg.com/papaparse@5.0.0/papaparse.min.js"></script>
+     
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <h1>Google Charts. Dashboard</h1>
+    <hr>
+    <div id = 'buttons' class = 'btn'><button type="button" class="btn" onclick="releaseFilter();">Clear filter: names</button> </div>
+    <div id="standalone_table_div" class = 'dashboard_div'></div> 
+    <!--Div that will hold the dashboard-->
+    <div id="dashboard_div">
+      <!--Divs that will hold each control and chart-->
+      <div id="hidden_table_div" class = 'hidden'></div>
+      <div id="filter_div" class = 'dashboard_div'></div>
+      <div id="name_filter_div" class = 'hidden'></div>   
+    </div>
+    <!-- chart div out of the dashboard (grouped data) -->
+    <div id="chart_div"></div>      
+  </body>
+</html>
