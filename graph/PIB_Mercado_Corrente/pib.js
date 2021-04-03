@@ -38,7 +38,7 @@ function drawChart() {
   var data = new google.visualization.arrayToDataTable(Arr);
 
   
-  var chart = new google.visualization.Table(document.getElementById('graf_PIB'));
+  var chart = new google.visualization.LineChart(document.getElementById('graf_PIB'));
 
   var options = {
     title: 'Evolução do Produto Interno Bruto do Brasil por Trimestre desde 1995 até 2020.',
