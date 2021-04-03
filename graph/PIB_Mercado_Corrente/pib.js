@@ -21,7 +21,7 @@ function lerJSON() {
       }
     }
   };
-  xmlhttp.open("GET", "\\graph\\PIB_Mercado_Corrente\\Row1PIB_bruno.json", true);
+  xmlhttp.open("GET", ".\\graph\\PIB_Mercado_Corrente\\Row1PIB_bruno.json", true);
   xmlhttp.send();
 }
 
