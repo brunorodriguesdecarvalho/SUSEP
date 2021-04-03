@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>MVP: Dados SUSEP</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+        <style>
+
+            body {
+                margin:auto;
+                -webkit-font-smoothing: antialiased;
+            }
+
+            nav, footer {
+                display: flex;
+                justify-content: center;
+                margin: auto;
+                width: 100%;
+                background-color: black;
+                color: white;
+                position: fixed;
+            }
+
+            nav {
+                top: 0;
+                font-size: xx-large;
+                font-family: 'PT Sans Caption', Arial;
+                font-weight: 700;
+            }
+
+            footer {
+                bottom: 0;
+                font-family: 'Quicksand', sans-serif;
+                font-size: small;
+                font-weight: 300;
+                height: 2.5em;
+                line-height: 50%;
+            }
+
+            section {
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                margin:10%;
+            }
+
+            article {
+            /*    border: 1px solid grey;
+                border-radius: 2em;
+                margin: 1em;
+                padding: 1em;
+            */
+                padding:30px;
+                margin:2%;
+                background:white;
+                width:30%;
+                border:1px solid #d6d6d6;
+                box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+                border-radius:3px;
+                transition:.2s all; 
+            }
+
+            .section:hover .article{
+                filter:blur(3px);
+                opacity:.5;
+                transform: scale(.98);
+                box-shadow:none;
+            }
+            
+            .section:hover .article:hover{
+                transform:scale(1);
+                filter:blur(0px);
+                opacity:1;
+                box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+            }
+        
+            .tituloArtigo {
+                font-size: large;
+                font-family: 'PT Sans Caption', Arial;
+                font-weight: 700;
+                color: rgb(55,55,55);
+                text-align: center;
+            }
+
+            p {
+                font-family: 'Quicksand', sans-serif;
+                font-size: medium;
+                font-weight: 400;
+            }
+
+            .homeIcon {
+                width: 5em;
+                display: flex;
+                margin: auto;
+                padding: 1em;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+        <nav>
+            <p>Relatório de Acompanhamento do Mercado de Seguros*</p>
+        </nav>
+
+        <div class="section">
+            <div class="article">
+                <p class="tituloArtigo">
+                    Composição do Mercado
+                    <img class="homeIcon" src="icons/pizza.png">
+                </p>
+            </div>
+            <div class="article">
+                <p class="tituloArtigo">
+                    Evolução do Mercado
+                    <img class="homeIcon" src="icons/barras.png">
+                </p>
+            </div>
+            <div class="article">
+                <p class="tituloArtigo">
+                    Resultado Técnico
+                    <img class="homeIcon" src="icons/dinheiro.png">
+                </p>
+            </div>
+            <div class="article">
+                <p class="tituloArtigo">
+                    Balanço Patrimonial
+                    <img class="homeIcon" src="icons/balanco.png">
+                </p>
+            </div>
+        </div>
+        
+        <footer>
+            <p class="rodape">(MVP - Minimium Viable Product) Relatório dinâmico de Acompanhamento do Mercado de Seguros - Criado por Bruno Rodrigues de Carvalho</p>
+        </footer>
+
+    </body>
+
+</html>
