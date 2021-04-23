@@ -1,0 +1,57 @@
+conteudo {
+    border: 2px solid white;
+    display: flex;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+texto {
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+}
+
+tituloTexto {
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin-block-start: 0.25rem;
+    margin-block-end: 1rem;
+
+}
+
+p {
+    text-indent: 2rem;
+    text-align: justify;
+}
+
+t {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+mais {
+    color: blue
+}
+
+graficoArea {
+    display: block;
+    background-color: #ffffff;
+}
+
+graficoPeq {
+    display: block;
+    margin: 0.5rem;
+    height: 19.25%;
+}
+
+graph {
+    width: 97.5%;
+    display: flex;
+    z-index: -1;
+    font-family: 'Heebo';
+  }
+

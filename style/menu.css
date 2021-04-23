@@ -1,0 +1,65 @@
+menu {
+    margin: 1.5rem auto;
+}
+
+article {
+    width: 15rem;
+    height: 15rem;
+    display: inline-grid;
+    margin: 0.5rem;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 25%);
+}
+
+.icoArticle{
+    width: 8rem;
+    display: flex;
+    margin: 2rem auto 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    display: inline;
+}
+
+.legendaArticle{
+    line-height: 3rem;
+}
+
+@media (max-width: 1025px) {
+    menu {
+        margin: 1rem auto;
+    }
+
+    article {
+        width: 10.5rem;
+        height: 12rem;
+    }
+
+    .icoArticle {
+        width: 6rem;
+    }
+
+}
+
+@media (max-width: 769px) {
+    menu {
+        margin-left: 2rem;
+    }
+
+    article{
+        width: 12rem;
+    }
+}
+
+@media (max-width: 426px) {
+    menu {
+        margin-left: 1rem;
+    }
+    
+    article {
+        width: 15rem;
+    }
+}

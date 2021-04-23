@@ -22,6 +22,9 @@ console.log("CORS: OK.")
 app.set('view engine', 'ejs');
 console.log("EJS engine view: OK.")
 
+//importar FS:
+const fs = require("fs");
+
 // Definição das variáveis para criar a DOM para o JQuery funcionar com o EJS
 var jsdom = require("jsdom");
 const { JSDOM } = jsdom;
@@ -41,7 +44,15 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
+//Criar rota para visão geral da economia
+app.get('/economia/', (req, res) => {
+  res.render('economia');
+});
 
+//Criar rota para 'sobre'
+app.get('/sobre', (req, res) => {
+  res.render('sobre');
+});
 
 // Carrega arquivos estáticos
 app.use("/icons", express.static('./icons')); 
@@ -50,3 +61,29 @@ app.use("/scripts", express.static('./scripts'));
 
 app.listen(porta, () => console.log(`App ok sim na porta ${porta}!`))
 console.log("Finalizando leitura de server.js");
+
+var PIB
+
+// Carregar dados do PIB
+fs.readFile(
+  "./graph/PIB_Mercado_Corrente/20210421/Row1Output.json", 
+  "utf-8", 
+  (err, jsonString) => {
+    if (err) {
+      console.log("Falha ao ler dados do PIB: ", err);
+      return
+    }
+    try {
+      PIB = JSON.parse(jsonString)
+      return PIB
+      //console.log("Dados do PIB: ", PIB)
+    } catch (err) {
+      console.log('Erro durante parsing do PIB:', err)
+    }
+  }
+)
+
+//Criar rota de teste para PIB
+app.get('/pib', (req, res) => {
+  res.send(PIB)
+});

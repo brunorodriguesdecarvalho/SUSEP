@@ -1,0 +1,126 @@
+[ {
+  "ano" : 1996.0,
+  "PibValor" : 0.9,
+  "PreDirValor" : 15.2,
+  "IdxPen" : 1.8
+}, {
+  "ano" : 1997.0,
+  "PibValor" : 1.0,
+  "PreDirValor" : 18.4,
+  "IdxPen" : 1.9
+}, {
+  "ano" : 1998.0,
+  "PibValor" : 1.0,
+  "PreDirValor" : 19.4,
+  "IdxPen" : 1.9
+}, {
+  "ano" : 1999.0,
+  "PibValor" : 1.1,
+  "PreDirValor" : 20.3,
+  "IdxPen" : 1.9
+}, {
+  "ano" : 2000.0,
+  "PibValor" : 1.2,
+  "PreDirValor" : 23.0,
+  "IdxPen" : 1.9
+}, {
+  "ano" : 2001.0,
+  "PibValor" : 1.3,
+  "PreDirValor" : 29.1,
+  "IdxPen" : 2.2
+}, {
+  "ano" : 2002.0,
+  "PibValor" : 1.5,
+  "PreDirValor" : 29.3,
+  "IdxPen" : 2.0
+}, {
+  "ano" : 2003.0,
+  "PibValor" : 1.7,
+  "PreDirValor" : 36.7,
+  "IdxPen" : 2.1
+}, {
+  "ano" : 2004.0,
+  "PibValor" : 2.0,
+  "PreDirValor" : 44.1,
+  "IdxPen" : 2.3
+}, {
+  "ano" : 2005.0,
+  "PibValor" : 2.2,
+  "PreDirValor" : 49.5,
+  "IdxPen" : 2.3
+}, {
+  "ano" : 2006.0,
+  "PibValor" : 2.4,
+  "PreDirValor" : 57.3,
+  "IdxPen" : 2.4
+}, {
+  "ano" : 2007.0,
+  "PibValor" : 2.7,
+  "PreDirValor" : 66.4,
+  "IdxPen" : 2.4
+}, {
+  "ano" : 2008.0,
+  "PibValor" : 3.1,
+  "PreDirValor" : 77.0,
+  "IdxPen" : 2.5
+}, {
+  "ano" : 2009.0,
+  "PibValor" : 3.3,
+  "PreDirValor" : 86.8,
+  "IdxPen" : 2.6
+}, {
+  "ano" : 2010.0,
+  "PibValor" : 3.9,
+  "PreDirValor" : 101.9,
+  "IdxPen" : 2.6
+}, {
+  "ano" : 2011.0,
+  "PibValor" : 4.4,
+  "PreDirValor" : 119.0,
+  "IdxPen" : 2.7
+}, {
+  "ano" : 2012.0,
+  "PibValor" : 4.8,
+  "PreDirValor" : 146.0,
+  "IdxPen" : 3.0
+}, {
+  "ano" : 2013.0,
+  "PibValor" : 5.3,
+  "PreDirValor" : 159.5,
+  "IdxPen" : 3.0
+}, {
+  "ano" : 2014.0,
+  "PibValor" : 5.8,
+  "PreDirValor" : 114.2,
+  "IdxPen" : 2.0
+}, {
+  "ano" : 2015.0,
+  "PibValor" : 6.0,
+  "PreDirValor" : 116.9,
+  "IdxPen" : 1.9
+}, {
+  "ano" : 2016.0,
+  "PibValor" : 6.3,
+  "PreDirValor" : 117.7,
+  "IdxPen" : 1.9
+}, {
+  "ano" : 2017.0,
+  "PibValor" : 6.6,
+  "PreDirValor" : 121.5,
+  "IdxPen" : 1.8
+}, {
+  "ano" : 2018.0,
+  "PibValor" : 7.0,
+  "PreDirValor" : 128.5,
+  "IdxPen" : 1.8
+}, {
+  "ano" : 2019.0,
+  "PibValor" : 7.4,
+  "PreDirValor" : 136.4,
+  "IdxPen" : 1.8
+}, {
+  "ano" : 2020.0,
+  "PibValor" : 7.4,
+  "PreDirValor" : 139.6,
+  "IdxPen" : 1.9
+} ]
